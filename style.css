@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(209, 198, 209);
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.autocomplete-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 323px;
+  background-color: white;
+}
+
+.autocomplete-list li {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.autocomplete-list li:hover {
+  background-color: rgb(126, 225, 254);
+}
+
+.selected-repos {
+  margin-top: 20px;
+  padding: 0;
+  background-color: white;
+  max-width: 323px;
+}
+
+.selected-repos li {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(176, 107, 241);
+  padding: 5px;
+}
+
+.selected-repos li button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-image: url("img/cross1.svg");
+    background-color: transparent;
+    background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 42px;
+    height: 38.5px;
+    right: 17px;
+}
